@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30rem;
+    width: 100%;
+    height: 50px;
+}
+body{
+    background-color: black;
+}
+button{
+    width: 20%;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #e01616;
+   
+}
+
+button a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+button:hover{
+    background: #fff;
+    color: black;
+}
+button a:hover{
+    color: black;
+}
